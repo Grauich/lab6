@@ -36,8 +36,8 @@ spisok = {
 slovo = input("Введите слово: ").upper()
 
 rub = 0
-for chet in slovo:
-    if chet in spisok:
-        rub += spisok[chet]
+for char in slovo:
+    if char in spisok:
+        rub += spisok[char]
 
 print("Общее количество очков:", rub)
